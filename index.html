@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Personal Links</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background: #f5f6f8;
+    color: #171717;
+}
+
+.container {
+    width: 100%;
+    max-width: 390px;
+    background: #ffffff;
+    padding: 40px 28px 30px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.045);
+    animation: fadeIn .7s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile {
+    width: 105px;
+    height: 105px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.connect {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #999;
+    margin-bottom: 18px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: #222;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .25s ease;
+}
+
+.social-link .left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.social-link i {
+    font-size: 19px;
+    width: 23px;
+    text-align: center;
+}
+
+.social-link .arrow {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.social-link:hover {
+    background: #f8f8f8;
+    border-color: #cfcfcf;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.04);
+}
+
+footer {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 10px;
+    color: #aaa;
+    letter-spacing: 1px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- PROFILE IMAGE -->
+    <img src="profile.jpg" class="profile" alt="Profile">
+
+    <!-- YOUR NAME -->
+    <h1>Your Name</h1>
+
+    <p class="description">
+        Welcome to my personal space.
+    </p>
+
+    <p class="connect">LET'S CONNECT</p>
+
+    <!-- FACEBOOK -->
+    <a href="https://www.facebook.com/share/1e1FCE4e6g/"
+       target="_blank" rel="noopener noreferrer"
+       class="social-link">
+
+        <span class="left">
+            <i class="fa-brands fa-facebook"></i>
+            Facebook
+        </span>
+
+        <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+    </a>
+
+    <!-- INSTAGRAM -->
+    <a href="https://www.instagram.com/_danzsx?xtok=ZWhnbHB0dDJibXBu"
+       target="_blank" rel="noopener noreferrer"
+       class="social-link">
+
+        <span class="left">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+        </span>
+
+        <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+    </a>
+
+    <!-- TIKTOK -->
+    <a href="tiktok.com/@danzsxz_"
+       target="_blank" rel="noopener noreferrer"
+       class="social-link">
+
+        <span class="left">
+            <i class="fa-brands fa-tiktok"></i>
+            TikTok
+        </span>
+
+        <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+    </a>
+
+    <!-- PHONE NUMBER -->
+    <a href="tel:+639304252289"
+       class="social-link">
+
+        <span class="left">
+            <i class="fa-solid fa-phone"></i>
+            Contact Me
+        </span>
+
+        <i class="fa-solid fa-arrow-right arrow"></i>
+    </a>
+
+    <footer>
+        © 2026 YOUR NAME · ALL RIGHTS RESERVED
+    </footer>
+
+</div>
+
+</body>
+</html>
